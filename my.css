@@ -1,0 +1,177 @@
+p.instructions 
+{
+	position: absolute;
+	top: 2px;
+	right: 10px;
+	font-family: Initial;
+	color: #110e54;
+	font-style: italic;
+}
+
+p.course 
+{
+	position: absolute;
+	top: 29px;
+	right: 10px;
+	font-weight: bold;
+	font-size: 100%;
+	color: #110e54;
+}
+
+.logo{
+	width: 13%;
+	height: 13%;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #110e54;
+	border: 1px solid #110e54;
+	border-radius: 10px;
+}
+
+.topnav a, img {
+	float: left;
+	color: white;
+	border: 10px solid #110e54;
+	text-align: center;
+	padding: 14px 16px;
+	font-family: Lucida Sans Unicode;
+	font-size: 1.30em;
+}
+
+.topnav a:hover {
+	background-color: white;
+	border: 10px solid white;
+	color: #110e54;
+}
+
+div.header p{
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+	text-align: center;
+	font-weight: bold;
+	color: #110e54;
+	font-size: 2.0em;
+}
+
+body 
+{
+	font-family: Helvetica, Arial, sans_serif;
+	font-weight: normal;
+	padding: 10px;
+}
+
+h1 
+{
+	display:inline;
+	font-weight: bold;
+	font-size: 1.8em;
+	font-family: Verdana;
+	padding: 0.4em 0 0.2em 0.1em;
+	line-height: 1.2em;
+	color: #110e54;
+}
+
+p.email 
+{
+	text-align: right;
+	font-family: Initial;
+	color: #110e54;
+	font-style: italic;
+}
+
+a.s_email
+{
+	font-family: Initial;
+	color: #110e54;
+	font-style: italic;
+	padding: 4px 2px;
+	text-align: left;
+}
+
+h2 
+{
+	display:inline;
+	font-weight: bold;
+	font-size: 1.6em;
+	font-family: Verdana;
+	padding: 0.4em 0 0.2em 0.1em;
+	color: #110e54;	
+}
+
+.projectComponent, .studentArea
+{
+	border-radius: 15px;
+	background-color: #fff;
+	border: 2px solid #110e54;
+	clear: both;
+	padding: 10px;
+	margin: 0 0 2em 0;
+}
+
+p.toTop 
+{
+	text-align: right;
+	margin: 0.2em;
+	font-size: 0.9em;
+}
+
+table 
+{
+	margin-top: 10px;
+    border-collapse: collapse;
+	border: 1px solid #c4c2c2;
+	width: 70%;
+}
+
+th
+{
+	font-size: 1.2em;
+	text-align: left;
+    border-bottom: 1px solid #c4c2c2;
+    border-right: 1px solid #c4c2c2;
+    color: #110e54;
+    background-color:#e0dbdb;
+}
+
+td
+{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #c4c2c2;
+    border-right: 1px solid #c4c2c2;
+}
+
+tr:hover
+{
+	background-color:#f9f7f9;
+}
+
+div.w3-modal-content {
+	height: 625px;
+	border-radius: 15px;
+	background-color: #00000000;
+}
+
+div.w3-container {
+	height: 600px;
+	background-color: #00000000;
+	border-radius: 15px;
+}
+
+p.getData {
+	height: 575px;
+}
+
+span.w3-button {
+	border-radius: 50px;
+	border: 3px solid #110e54;
+	background-color: white;
+	color: #110e54;
+	font-weight: bold;
+}

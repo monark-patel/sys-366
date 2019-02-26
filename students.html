@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	
+	<!-- Change Team Number and Name below to your team's number and name -->
+	<title>
+		SYS366: 10: Flying Birds - Students
+	</title>
+	<!--<link rel="stylesheet" type="text/css" href="reset.css" />-->
+	<!--<link rel="stylesheet" type="text/css" href="sys366.css" />-->
+	<link rel="stylesheet" type="text/css" href="my.css" />
+	<script src="my.js"></script>
+
+	<!-- arrow - to top -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<a name="top" id="top"></a>
+	<p class="instructions">This file is index.html	</p>
+	<p class="course">SYS366</p>
+	<div>
+		<img class="logo .img-responsive" src="logo.png"/>
+	</div>
+	<br/><br/>
+	<div class="topnav">
+		<a href="#st1">Monark Patel</a>
+		<a href="#st2">Payal Donda</a>
+		<a href="#st3">Sahib Arora</a>
+		<a href="index.html">To Team &#10148;</a>
+	</div>
+	
+	<div id="model" class="w3-modal">
+		<div class="w3-modal-content w3-animate-bottom w3-card-4">
+			<div class="w3-container">
+				<span onclick="document.getElementById('model').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+				<p class="getData" id="getData">	
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<br><br><br>
+
+	<a id="st1" name="st1"></a>
+	<div class="studentArea">
+		<!-- Replace "Student Name 1" with the first student's full name and email address with Seneca email address -->
+		<h2>Monark Patel</h2>
+		<a href="mailto://mypatel2@myseneca.ca" class="s_email">
+			mypatel2@myseneca.ca
+		</a>
+		<br />
+		<table>
+			<tr>
+				<th>Submission</th>
+				<th>Version</th>
+				<th>Date</th>
+			</tr>
+			<tr>
+				<td><a onclick="getRentalUML()">Rental And Servicing UML</a></td>
+				<td>1.0</td>
+				<td>10/10/2017</td>
+			</tr>
+			<tr>
+				<td>
+					<p>Business Use Cases</p>
+					<a onclick="OrderTools()">1) Order Tools</a><br>
+					<a onclick="RentTools()">2) Rent Tools</a><br>
+					<a onclick="Workshops()">3) Workshops</a><br>
+				</td>
+				<td>1.0</td>
+				<td>11/10/2017</td>
+			</tr>
+		</table>
+		<p class="toTop"><a href="#top" data-toggle="tooltip" title="To Top" class="glyphicon glyphicon-arrow-up"></a></p>
+	</div>
+
+	<a id="st2" name="st2"></a>
+	<div class="studentArea">
+		<!-- Replace "Student Name 2" with the first student's full name and email address with Seneca email address -->
+		<h2>Payal Donda</h2>
+		<a href="mailto://pvdonda@myseneca.ca" class="s_email">pvdonda@myseneca.ca</a>
+		<br />
+		<table>
+			<tr>
+				<th>Submission</th>
+				<th>Version</th>
+				<th>Date</th>
+			</tr>
+			<tr>
+				<td><a onclick="getStoreUML()">Store Management UML</a></td>
+				<td>1.0</td>
+				<td>10/10/2017</td>
+			</tr>
+			<tr>
+				<td>
+					<p>Business Use Cases</p>
+					<a onclick="CustOrder()">1) Fullfill Customer Order</a><br>
+					<a onclick="PayRec()">2) Payment Recieved</a><br>
+					<a onclick="ProfRep()">3) Create Profit Report</a><br>
+				</td>
+				<td>1.0</td>
+				<td>11/10/2017</td>
+			</tr>
+		</table>
+		<p class="toTop"><a href="#top" data-toggle="tooltip" title="To Top" class="glyphicon glyphicon-arrow-up"></a></p>
+	</div>
+
+	<a id="st3" name="st3"></a>
+	<div class="studentArea">
+		<!-- Replace "Student Name 3" with the first student's full name and email address with Seneca email address -->
+		<h2>Sahib Arora</h2>
+		<a href="mailto://sarora42@myseneca.ca" class="s_email">sarora42@myseneca.ca</a>
+		<br />
+		<table>
+			<tr>
+				<th>Submission</th>
+				<th>Version</th>
+				<th>Date</th>
+			</tr>
+			<tr>
+				<td><a onclick="getInventoryUML()">Inventory Management UML</a></td>
+				<td>1.0</td>
+				<td>10/10/2017</td>
+			</tr>
+			<tr>
+				<td>
+					<p>Business Use Cases</p>
+					<a onclick="OrderProd()">1) Stock The Shelves</a><br>
+					<a onclick="StockTheShelves()">2) Order Products</a><br>
+					<a onclick="TransferInventoryFromWarehouse()">3) Transfer Inventory From Warehouse</a><br>
+				</td>
+				<td>1.0</td>
+				<td>11/10/2017</td>
+			</tr>
+		</table>
+		<p class="toTop"><a href="#top" data-toggle="tooltip" title="To Top" class="glyphicon glyphicon-arrow-up"></a></p>
+	</div>
+</body>
+</html>
